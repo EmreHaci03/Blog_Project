@@ -52,9 +52,9 @@ Admin tüm sistemi kontrol eder:
 
 ### 🖥️ Ziyaretçi & Blog Arayüzleri
 <p align="center">
-<img src="Images/Blog_Liste.jpeg" width="330" />
-<img src="Images/Blog_Detay.jpeg" width="330" />
-</p>
+<img width="1897" height="799" alt="Blog_Liste" src="https://github.com/user-attachments/assets/aed40a07-5c6c-4497-8074-51914339f4f0" />
+<img width="1913" height="830" alt="Blog_Detay" src="https://github.com/user-attachments/assets/2179e4cb-4421-4497-9c06-fb002d34f6f4" />
+
 
 ### ✍️ Yazar Paneli
 <p align="center">
@@ -139,4 +139,5 @@ IIS Express
 Rol	Kullanıcı	Şifre
 Admin	admin@gmail.com	1234
 Yazar	emrehac66@gmail.com	Emre'123
+
 
