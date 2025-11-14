@@ -58,22 +58,22 @@ Admin tüm sistemi kontrol eder:
 
 ### ✍️ Yazar Paneli
 <p align="center">
-<img src="Images/YazarBlog_Liste.jpeg" width="330" />
-<img src="Images/Yazar_Bilgi.jpeg" width="330" />
-</p>
+<img width="1916" height="747" alt="YazarBlog_Liste" src="https://github.com/user-attachments/assets/c4c92eeb-aaa8-4775-a1da-03a97e9d83b5" />
+<img width="1919" height="871" alt="Yazar_Bilgi" src="https://github.com/user-attachments/assets/f4e923b5-d5bc-498a-9145-ff370fd854bd" />
+
 <p align="center">
-<img src="Images/Yazar_Yorum.jpeg" width="330" />
-<img src="Images/Yazar_PanelGirisYap.jpeg" width="330" />
+<img width="1912" height="598" alt="Yazar_Yorum" src="https://github.com/user-attachments/assets/4d74e9dc-12d4-49e7-a26e-040b11edd4f8" />
+<img width="1904" height="753" alt="Yazar_PanelGirisYap" src="https://github.com/user-attachments/assets/3722ef64-afc3-46da-ae47-cf91eaa9ecc6" />
 </p>
 
 ### 🛡️ Admin Paneli
-<p align="center">
-<img src="Images/Admin_AnaSayfa.jpeg" width="330" />
-<img src="Images/Admin_YazarIslemleri.jpeg" width="330" />
+
+
+<img width="1911" height="816" alt="Admin_AnaSayfa" src="https://github.com/user-attachments/assets/71d9e4e0-f8ac-4ce0-a3bb-56c4bd90ae43" />
+<img width="1918" height="866" alt="Admin_YazarIslemleri" src="https://github.com/user-attachments/assets/9dd5ce68-c21b-4194-b6a8-c648bda89836" />
 </p>
-<p align="center">
-<img src="Images/Blog_Grafik.jpeg" width="330" />
-<img src="Images/Admin_Mail.jpeg" width="330" />
+<img width="1910" height="882" alt="Blog_Grafik" src="https://github.com/user-attachments/assets/e468d6d0-6719-4ed2-b83d-de5fea283359" />
+<img width="1913" height="814" alt="Admin_Mail" src="https://github.com/user-attachments/assets/dc02d4d8-0266-4612-b6d7-f0e4bbb29ca5" />
 </p>
 
 ---
@@ -139,5 +139,6 @@ IIS Express
 Rol	Kullanıcı	Şifre
 Admin	admin@gmail.com	1234
 Yazar	emrehac66@gmail.com	Emre'123
+
 
 
