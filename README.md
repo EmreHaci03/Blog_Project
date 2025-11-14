@@ -73,6 +73,7 @@ Admin tüm sistemi kontrol eder:
 <img width="1918" height="866" alt="Admin_YazarIslemleri" src="https://github.com/user-attachments/assets/9dd5ce68-c21b-4194-b6a8-c648bda89836" />
 </p>
 <p align="center">
+<img width="1912" height="740" alt="Admin_PanelGirisYap" src="https://github.com/user-attachments/assets/364445b4-0377-4618-b8df-6c85e23d4bb9" />
 <img width="1910" height="882" alt="Blog_Grafik" src="https://github.com/user-attachments/assets/e468d6d0-6719-4ed2-b83d-de5fea283359" />
 <img width="1913" height="814" alt="Admin_Mail" src="https://github.com/user-attachments/assets/dc02d4d8-0266-4612-b6d7-f0e4bbb29ca5" />
 </p>
@@ -140,6 +141,7 @@ IIS Express
 Rol	Kullanıcı	Şifre
 Admin	admin@gmail.com	1234
 Yazar	emrehac66@gmail.com	Emre'123
+
 
 
 
