@@ -1,0 +1,111 @@
+﻿
+@model  IEnumerable<EntityLayer.Concrete.About>
+
+@{
+    ViewBag.Title = "UpdateAboutList";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<html>
+
+<body class="hold-transition sidebar-mini">
+
+
+
+    <!-- Main content -->
+
+    <section class="content">
+      
+
+
+<div class="row">
+
+            <div class="col-md-12">
+
+                <div class="card card-primary">
+
+                    <div class="card-header">
+
+                        <h3 class="card-title">Hakkımızda Sayfa Düzenlemesi</h3>
+
+                        <div class="card-tools">
+
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
+
+                                <i class="fas fa-minus"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    
+                    @using (Html.BeginForm("UpdateAbout", "About", FormMethod.Post))
+                     {         
+                    <div class="card-body">
+                        @foreach (var item in Model)
+                        {
+                            <div class="form-group">
+
+                                <label for="inputName">Id</label>
+
+                                <input type="text" class="form-control" value="@item.AboutID" name="AboutID">
+
+                            </div>
+                            <div class="form-group">
+
+                                <label for="inputName">Resim 1</label>
+
+                                <input type="text" class="form-control" value="@item.AboutImage1" name="AboutImage1">
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="inputName">Resim 2</label>
+
+                                <input type="text" class="form-control" value="@item.AboutImage2" name="AboutImage2">
+
+                            </div>
+                            <div class="form-group">
+
+                                <label for="inputDescription">İçerik 1</label>
+
+                                <textarea class="form-control" rows="4" name="AboutContent1">@item.AboutContent1</textarea>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="inputDescription">İçerik 2</label>
+
+                                <textarea class="form-control" rows="4" name="AboutContent2">@item.AboutContent2</textarea>
+
+                            </div>
+                            <button class="btn btn-success" >Güncelle</button>
+                        }
+                        </div>
+                    }
+                    <!-- /.card-body -->
+
+                </div>
+
+                <!-- /.card -->
+     
+            </div>
+        </div>
+        
+
+       
+    </section>
+
+</body>
+
+</html>
+
+
+
+
+

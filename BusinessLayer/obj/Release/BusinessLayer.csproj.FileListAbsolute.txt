@@ -1,0 +1,15 @@
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Release\BusinessLayer.dll
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Release\BusinessLayer.pdb
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Release\DataAccesLayer.dll
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Release\EntityLayer.dll
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Release\EntityFramework.dll
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Release\DataAccesLayer.pdb
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Release\DataAccesLayer.dll.config
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Release\EntityLayer.pdb
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Release\EntityLayer.dll.config
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Release\EntityFramework.xml
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\obj\Release\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\obj\Release\Business.EA331CBA.Up2Date
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\obj\Release\BusinessLayer.dll
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\obj\Release\BusinessLayer.pdb

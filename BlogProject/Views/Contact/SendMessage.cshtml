@@ -1,0 +1,85 @@
+﻿@model EntityLayer.Concrete.Contact
+@{
+    ViewBag.Title = "SendMessage";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+
+<div class="site-cover site-cover-sm same-height overlay single-page" style="background-image: url('/miniblog/images/img_4.jpg');">
+    <div class="container">
+        <div class="row same-height justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                <div class="post-entry text-center">
+                    <h1 class="">İletişime Geçin</h1>
+                    <p class="lead mb-4 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, adipisci?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="site-section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 mb-5">
+
+                @using (Html.BeginForm("SendMessage", "Contact", FormMethod.Post))
+                {
+                    <div class="row form-group">
+                        <div class="col-md-12 mb-3 mb-md-0">
+                            <label class="text-black" for="fname">Ad Soyad</label>
+                           @Html.TextBoxFor(x => x.NameUsername,new { @class="form-control"})
+                           @Html.ValidationMessageFor(x=>x.NameUsername)
+                        </div>
+                    </div>
+                    @Html.Hidden("MessageDate", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"))
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="email">Email</label>
+                            @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Mail)
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="subject">Subject</label>
+                            @Html.TextBoxFor(x => x.Subject, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Subject)
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="message">Message</label>
+                            @Html.TextAreaFor(x => x.Message,10,3, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Message)
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input type="submit" value="Mesajı Gönder" class="btn btn-primary py-2 px-4 text-white">
+                        </div>
+                    </div>
+                }
+
+            </div>
+            <div class="col-md-5">
+
+                <div class="p-4 mb-3 bg-white">
+                    <p class="mb-0 font-weight-bold">Adresimiz</p>
+                    <p class="mb-4">Mecidiyekoy Mahallesi Menekşe Cad. Papatya Sk. Şişli/İstanbul</p>
+
+                    <p class="mb-0 font-weight-bold">Telefon</p>
+                    <p class="mb-4"><a href="#">+99 212 879 3344</a></p>
+
+                    <p class="mb-0 font-weight-bold">Mail Adresi</p>
+                    <p class="mb-0"><a href="#">youremail@domain.com</a></p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+@Html.Action("Index", "Footer")

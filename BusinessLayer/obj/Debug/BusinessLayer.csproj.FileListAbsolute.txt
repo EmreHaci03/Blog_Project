@@ -1,0 +1,17 @@
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Debug\DataAccesLayer.dll
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Debug\DataAccesLayer.pdb
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Debug\DataAccesLayer.dll.config
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Debug\FluentValidation.dll
+C:\Users\ersin\source\repos\BlogProject\BusinessLayer\bin\Debug\FluentValidation.xml
