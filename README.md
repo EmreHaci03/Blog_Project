@@ -119,8 +119,6 @@ Kodu kopyala
 git clone https://github.com/kullaniciadi/BlogProject.git
 2️⃣ SQL bağlantısını yap (DataAccessLayer/Context.cs):
 
-csharp
-Kodu kopyala
 public BlogContext() : base("server=.;database=BlogDb;integrated security=true")
 {
 }
@@ -141,3 +139,4 @@ IIS Express
 Rol	Kullanıcı	Şifre
 Admin	admin@gmail.com	1234
 Yazar	emrehac66@gmail.com	Emre'123
+
